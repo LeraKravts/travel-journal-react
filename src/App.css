@@ -53,12 +53,18 @@ a {
   color: rgb(117, 115, 115);
 }
 
+/* TYPOGRAPHY */
 
 .description-text, .trip-data, .country, .google-link {
   max-width: 326px;
   font-size: 11px;
   margin: 0;
   padding: 0;
+}
+
+.country {
+  text-transform: uppercase;
+  letter-spacing: 25%;
 }
 
 
@@ -69,6 +75,7 @@ a {
 
 .description-text {
   margin: 9px 0px 0px 0px;
+  line-height: 140%;
   
 }
 
@@ -77,6 +84,7 @@ a {
   font-weight: 700;
   margin: 7px 0px 0px 0px;
   padding: 0;
+  letter-spacing: -2%;
 }
 
 header > h1 {
