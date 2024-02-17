@@ -1,0 +1,84 @@
+.App {
+  font-family: "Inter", sans-serif;
+  max-width: 550px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  gap: 7px;
+  color: aliceblue;
+}
+
+
+.card-container {
+  display: flex;
+  margin-left: 39px;
+  margin-top: 39px;
+  
+}
+
+.info-container {
+  margin-left: 19px;
+  margin-top: 0;
+  
+}
+
+
+.location-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: flex-start;
+  text-align: start;
+  margin-top: 19px;
+  margin-bottom: 0;
+}
+
+.location-container > p, a, svg {
+  padding: 0;
+  margin: 0;
+}
+
+.location-photo {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+a {
+  color: rgb(117, 115, 115);
+}
+
+
+.description-text, .trip-data, .country, .google-link {
+  max-width: 326px;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.trip-data {
+  margin: 14px 0 0;
+  font-weight: 600;
+}
+
+.description-text {
+  margin: 9px 0px 0px 0px;
+  
+}
+
+.location-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 7px 0px 0px 0px;
+  padding: 0;
+}
+
+header > h1 {
+
+font-size: 15px;
+}
