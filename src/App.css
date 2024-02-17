@@ -1,15 +1,16 @@
 .App {
   font-family: "Inter", sans-serif;
-  max-width: 550px;
+  width: 100%;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: #F55A5A;
   gap: 7px;
   color: aliceblue;
+  padding-left: 45px;
 }
 
 
